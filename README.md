@@ -1,5 +1,5 @@
 
-# CampShare.
+# CampShare 🎪.
 It's a Full-stack website providing a platform for travelers or camping lovers to share their experiences and learn/plan their own travel camps by viewing other CampShares.<br>
 
 ## 📃Table of Contents
@@ -75,8 +75,9 @@ MAPBOX_TOKEN = .....
 ![Screenshot (32)](https://github.com/mansi2024/CampShare/assets/89377143/a5361665-a354-4606-a45c-34cd4817a8c7)
 &nbsp;
 ![Screenshot (33)](https://github.com/mansi2024/CampShare/assets/89377143/db27d9de-26f8-4d48-8fc6-3fee5073258a)
-
-
+&nbsp;
+- **All Campgrounds**
+![Screenshot (26)](https://github.com/mansi2024/CampShare/assets/89377143/a0dd1384-37bb-4181-87c4-e62e388bfa05)
 
 
 
