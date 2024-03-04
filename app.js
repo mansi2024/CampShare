@@ -22,7 +22,7 @@ const path = require('path');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://mansistart:Youcandoit100@cluster0.hielw.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://mansistart:mansistart@cluster0.hielw.mongodb.net/?retryWrites=true&w=majority',{
   useUnifiedTopology:true,
   useNewUrlParser:true,
   useCreateIndex:true,
