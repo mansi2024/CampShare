@@ -14,7 +14,7 @@ module.exports.registerUser = async(req,res)=>{
         res.redirect('/campgrounds');
     })
     req.flash('success','Welcome to CampShare');
-    res.redirect('/campgrounds');
+    res.redirect('/login');
     }catch(e){
         req.flash('error',e.message);
         res.redirect('/login');
