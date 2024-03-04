@@ -10,14 +10,14 @@ module.exports.registerUser = async(req,res)=>{
     const registeredUser = await User.register(user,password);
     req.login(registeredUser,err=>{
         if(err) return next(err);
-        req.flash('success','Welcome to Yelpcamp');
+        req.flash('success','Welcome to CampShare');
         res.redirect('/campgrounds');
     })
-    req.flash('success','Welcome to Yelpcamp');
+    req.flash('success','Welcome to CampShare');
     res.redirect('/campgrounds');
     }catch(e){
         req.flash('error',e.message);
-        res.redirect('/register');
+        res.redirect('/login');
     }
 }
 module.exports.loginForm = (req,res)=>{
