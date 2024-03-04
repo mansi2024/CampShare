@@ -23,7 +23,7 @@ const path = require('path');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://mansistart:mansistart@cluster0.hielw.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://mansistart:mansistart@cluster0.9sx2lvm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
   useUnifiedTopology:true,
   useNewUrlParser:true,
   useCreateIndex:true,
